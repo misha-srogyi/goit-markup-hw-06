@@ -567,6 +567,26 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe">
+          <form class="subscribe-form" action="#">
+            <p>Подпишитесь на рассылку</p>
+            <label for="">
+              <input
+                class="subscribe-input"
+                type="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="subscribe-button" type="submit">
+              Подписаться
+              <svg class="subscibe-icon" width="24" height="24">
+                <use
+                  xlink:href="./images/icons/symbol-defs.svg#icon-send"
+                ></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -626,15 +646,24 @@
               placeholder="Введите текст"
             ></textarea>
           </div>
-
+          <!-- Checkbox -->
           <div class="contract">
-            <input type="checkbox" id="checkbox" />
-            <svg class="checkbox-icon" width="16px" height="15px">
+            <!-- <svg class="checkbox-icon" width="16px" height="15px">
               <use href="./images/icons/symbol-defs.svg#icon-check"></use>
-            </svg>
-            <label for="checkbox">
+            </svg> -->
+            <label class="checkbox-label" for="checkbox">
+              <input
+                class="checkbox-input visually-hidden"
+                type="checkbox"
+                id="checkbox"
+              />
               <span>Соглашаюсь с рассылкой и принимаю</span>
               <a href="#">Условия договора</a>
+              <div class="modal-checkbox-icon">
+                <svg class="checkbox-icon" width="16px" height="15px">
+                  <use href="./images/icons/symbol-defs.svg#icon-check"></use>
+                </svg>
+              </div>
             </label>
           </div>
           <button type="submit" class="form-button">Отправить</button>

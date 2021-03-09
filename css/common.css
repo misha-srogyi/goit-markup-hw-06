@@ -238,3 +238,69 @@ address {
 /* .social-link {
   background-color: var(--icon-background-dark-grey);
 } */
+.subscribe {
+  margin-left: 93px;
+  width: 570px;
+}
+.subscribe > form > p {
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.172;
+  letter-spacing: 0.03em;
+  color: var(--white-text);
+  text-transform: uppercase;
+  flex-grow: 1;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.subscribe-form label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.subscribe-input {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  background-color: inherit;
+  border: 1px solid var(--white-text-op60);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--white-text);
+}
+
+.subscribe-button {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: var(--white-text);
+  background-color: var(--blue-text);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  margin-left: 11px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.subscibe-icon {
+  margin-left: 10px;
+  fill: var(--white-text);
+  justify-content: center;
+}

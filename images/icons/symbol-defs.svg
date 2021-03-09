@@ -8,9 +8,7 @@
                 fill="#fff" stroke="#fff" stroke-width=".2" />
         </symbol>
         <symbol id="icon-send" viewBox="0 0 24 24">
-            <path style="fill: var(--color1, #fff)"
-                d="M32 0l-32 18 10.227 3.788 15.773-14.788-11.998 16.186 0.010 0.004-0.012-0.004v8.814l5.735-6.691 7.265 2.691 5-28z">
-            </path>
+            <path d="M24 0L0 13.5l7.67 2.84L19.5 5.25l-8.998 12.14.007.002-.009-.002V24l4.301-5.018L20.251 21 24 0z" />
         </symbol>
         <symbol id="icon-email" viewBox="0 0 18 18">
             <path
